@@ -6,7 +6,7 @@
 
 <script>
 export default {
-  name: 'VueImgzoomer',
+  name: 'VImgzoomer',
   props: {}
 }
 </script>

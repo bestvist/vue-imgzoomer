@@ -2,23 +2,34 @@
   "name": "vue-imgzoomer",
   "version": "0.1.0",
   "private": false,
-  "keywords": [ "vue", "component", "zoom", "zoom-image", "image" ],
+  "keywords": [
+    "vue",
+    "component",
+    "zoom",
+    "zoom-image",
+    "image"
+  ],
   "license": "MIT",
   "author": "vist",
-  "main": "dist/vue-imgzoomer.js",
+  "main": "dist/vue-imgzoomer.umd.min.js",
   "homepage": "https://bestvist.github.io/vue-imgzoomer/",
   "bugs": {
     "url": "https://github.com/bestvist/vue-imgzoomer/issues"
   },
-  "files": [ "dist", "src", "docs" ],
+  "files": [
+    "dist",
+    "src",
+    "docs"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/bestvist/vue-imgzoomer.git"
   },
   "scripts": {
-    "start": "npm run serve",
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "start": "npm run dev",
+    "dev": "vue-cli-service serve",
+    "build:docs": "vue-cli-service build --dest docs",
+    "build:lib": "vue-cli-service build --target lib --dest dist packages/index.js",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
@@ -28,6 +39,9 @@
     "@vue/cli-plugin-babel": "^3.0.1",
     "@vue/cli-plugin-eslint": "^3.0.1",
     "@vue/cli-service": "^3.0.1",
+    "highlight.js": "^9.13.1",
+    "node-sass": "^4.9.4",
+    "sass-loader": "^7.1.0",
     "vue-template-compiler": "^2.5.17"
   },
   "eslintConfig": {
