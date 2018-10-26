@@ -15,7 +15,7 @@ npm install
 
 | Property | Description | Type | Accepted Values | Default |
 |-|-|-|-|-|
-| imgs | image list | Array | - | - |
+| imgs | Image list | Array | - | - |
 
 
 ## License
