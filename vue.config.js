@@ -1,4 +1,5 @@
 module.exports = {
+  baseUrl: '/vue-imgzoomer/',
   pages: {
     index: {
       entry: 'docs-src/main.js',
