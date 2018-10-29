@@ -3,7 +3,7 @@
     <div class="page-header">
       <h1>vue imgzoomer</h1>
       <div style="width: 400px">
-      <v-imgzoomer url="http://imgsrc.baidu.com/imgad/pic/item/3801213fb80e7beca9004ec5252eb9389b506b38.jpg" :scale="3" />
+        <v-imgzoomer :url="imgUrl" />
       </div>
     </div>
   </div>
@@ -13,6 +13,7 @@
 export default {
     data() {
         return {
+            imgUrl: 'http://imgsrc.baidu.com/imgad/pic/item/3801213fb80e7beca9004ec5252eb9389b506b38.jpg'
         };
     },
     methods: {}
@@ -20,5 +21,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+
 </style>
   

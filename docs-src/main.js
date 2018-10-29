@@ -1,6 +1,5 @@
 import Vue from 'vue'
 import App from './App.vue'
-
 import hljs from 'highlight.js'
 import 'highlight.js/styles/github.css'
 
